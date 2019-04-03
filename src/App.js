@@ -8,7 +8,7 @@ import MyRoute from './components/MyRoute'
 //引入home组件
 import Home from './components/home/home'
 //引入store组件
-import Store from './components/store/store'
+import Shopping  from './components/shopping/shopping'
 class App extends Component {
 	constructor(props){
 		super(props)
@@ -21,8 +21,8 @@ class App extends Component {
 				component:Home
 			},
 			{
-				path:'/store',
-				component:Store
+				path:'/Shopping',
+				component:Shopping
 			}
 		]
 	}
@@ -34,7 +34,7 @@ class App extends Component {
       				<div className="header">
 		      			<Link to="/home"><img src={require('./assets/img/logo.png')}/></Link>
 		      			<ul className="nav">
-		      				<li><NavLink to="/store">算法商城</NavLink></li>
+		      				<li><NavLink to="/shopping">算法商城</NavLink></li>
 		      				<li><NavLink to="/case">行业方案</NavLink></li>
 		      				<li><NavLink to="/show">典型案例</NavLink></li>
 		      				<li><NavLink to="/honor">资质荣誉</NavLink></li>
