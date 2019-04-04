@@ -9,16 +9,31 @@ import {bindActionCreators} from 'redux'
 import Show from './page/show'
 
 class Shopping extends Component{
+	constructor(props){
+		super(props)
+		this.state={
+			navn:0
+		}
+	}
+	//改变导航栏颜色的方法
+	change(n){
+		this.setState({
+			navn:n
+		})
+	}
 	render(){
 		let {list}=this.props
 		return <div>
-				<ul>
-					{
-						list.map((item,index)=>{
-							return <li key={index}>{item}</li>
-						})
-					}
-				</ul>
+				<div className="container">
+					<ul className="navs">
+						{
+							list.map((item,index)=>{
+								return <li style={{background:this.state.navn==index?"#236cff":""}} key={index} onClick={this.change.bind(this,index)}>{item}</li>
+							})
+						}
+					</ul>
+				</div>
+				
 				 <Show />
 			   </div>
 	}

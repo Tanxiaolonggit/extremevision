@@ -1,3 +1,23 @@
-li{
-	background: pink;
+body{
+	background: #242424;
+}
+.container{
+	width: 1200px;
+	margin: 120px auto 0;
+	
+}
+.container .navs{
+	display: flex;
+	border-bottom: 1px solid #4f4f4f;
+	padding-bottom: 20px;
+}
+.container .navs li{
+	margin: 0 20px;
+	color: #fff;
+	font-size: 14px;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
 }
