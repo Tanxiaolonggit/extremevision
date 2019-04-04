@@ -23,7 +23,7 @@ class Shopping extends Component{
 	}
 	render(){
 		let {list}=this.props
-		return <div>
+		return <div className='bigBox'>
 				<div className="container">
 					<ul className="navs">
 						{
