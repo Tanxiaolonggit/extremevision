@@ -1,0 +1,38 @@
+.videTop {position: relative;z-index: -4;}
+.videobg{width: 100%; object-fit: fill;height: 100%;}
+.videobottom{display: flex;position: absolute;top: 40%;left: 24%;color: #fff;font-size: 35px;}
+.videobottom .en_title{font-size: 29px}
+.videobottom .divfirst {margin-right: 60px;}
+.videobottom h1{line-height: 55px;font-weight: 400;}
+.videobottom .divfirst::after{    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 1px;
+    height: 5.125rem;
+    background-color: #fff;
+    right: 15.125rem;
+    bottom: 0;}
+    .suanfa{width: 997px;margin: 0 auto;}
+.suanfa .color_title{text-align: center;margin: 50px 0 70px;font-size: 30px;font-weight: 400;color: #333;}
+.suanfalist {display: flex;flex-wrap: wrap;
+justify-content: space-between;}
+.suanfalist dl {width: 30%;height: 192px;color:#333;padding-left: 60px;margin-bottom:20px;box-sizing: border-box;font-size: 20px;}
+.suanfalist dl:nth-of-type(1){background: url(https://static2.extremevision.com.cn/images/lion/index/algo_shop_bg_01.png?201903211615) no-repeat;}
+.suanfalist dl:nth-of-type(1):hover{   color: #fff;background-image: url(https://static2.extremevision.com.cn/images/lion/index/algo_shop_bg_01_hover.png?201903211615);
+}
+.suanfalist dl:nth-of-type(2){background: url(https://static2.extremevision.com.cn/images/lion/index/algo_shop_bg_01.png?201903211615) no-repeat;}
+.suanfalist dl:nth-of-type(2):hover{   color: #fff;background-image: url(https://static2.extremevision.com.cn/images/lion/index/algo_shop_bg_01_hover.png?201903211615);
+}
+.suanfalist dl:nth-of-type(3){background: url(https://static2.extremevision.com.cn/images/lion/index/algo_shop_bg_01.png?201903211615) no-repeat;}
+.suanfalist dl:nth-of-type(3):hover{   color: #fff;background-image: url(https://static2.extremevision.com.cn/images/lion/index/algo_shop_bg_01_hover.png?201903211615);
+}
+.suanfalist dl:nth-of-type(4){background: url(https://static2.extremevision.com.cn/images/lion/index/algo_shop_bg_01.png?201903211615) no-repeat;}
+.suanfalist dl:nth-of-type(4):hover{   color: #fff;background-image: url(https://static2.extremevision.com.cn/images/lion/index/algo_shop_bg_01_hover.png?201903211615);
+}
+.suanfalist dl:nth-of-type(5){background: url(https://static2.extremevision.com.cn/images/lion/index/algo_shop_bg_01.png?201903211615) no-repeat;}
+.suanfalist dl:nth-of-type(5):hover{   color: #fff;background-image: url(https://static2.extremevision.com.cn/images/lion/index/algo_shop_bg_01_hover.png?201903211615);
+}
+.suanfalist dl:nth-of-type(6){background: url(https://static2.extremevision.com.cn/images/lion/index/algo_shop_bg_01.png?201903211615) no-repeat;}
+.suanfalist dl:nth-of-type(6):hover{   color: #fff;background-image: url(https://static2.extremevision.com.cn/images/lion/index/algo_shop_bg_01_hover.png?201903211615);
+}
+.suanfalist dl .icon{width: 65px;font-size: 55px;height: 60px;margin:30px 0 20px;}
