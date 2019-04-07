@@ -1,0 +1,33 @@
+.homeNews{width: 997px;margin:0 auto;position: relative;margin-bottom: 80px;}
+.homeNews h2{font-size: 40px;text-align: center;color:#333;margin: 60px 0 100px;font-weight: 400;color: #333;}
+.newsList {display: flex;justify-content: space-between;}
+.newsList .leftDl {margin-right: 60px;width: 315px;}
+.newsList .leftDl a{color: #236cff;}
+.newsList .leftDl dt {font-size: 20px;margin: 10px 0;}
+.newsList .leftDl dd p{margin-top: 40px;font-size: 14px;color: #666;}
+.newsList .rightList dl img {width: 131px;margin-right: 30px;}
+.newsList .rightList dl{display: flex;padding:20px 0 10px;border-bottom: 1px solid #999;}
+.newsList .rightList dl dd h4{font-size: 16px;color: #444;margin-bottom: 5px;}
+.newsList .rightList dl dd a{font-size: 14px;color: #236cff;}
+.newsList .rightList dl dd p{font-size:12px;line-height: 20px;color: #666;margin-top: 6px;}
+
+.newsList .rightList dl:nth-of-type(1){padding-top: 0;}
+.newsList .rightList dl:nth-last-of-type(1){border: 0;}
+.newsList .rightList{height: 518px;overflow: auto;}
+.newsList .rightList::-webkit-scrollbar{
+    width: 10px;
+    height: 1px;
+}
+.newsList .rightList::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: #535353;
+}
+.newsList .rightList::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background: #EDEDED;
+}
+.homefooter {text-align: center;padding:50px 0 60px;background: url(https://static2.extremevision.com.cn/images/lion/index/bg6_0309.png?201903211615) no-repeat;}
+.homefooter h2{font-size: 50px;color: #fff;font-weight: 400;margin-bottom:80px;}
+.homefooter img {width: 80%;}

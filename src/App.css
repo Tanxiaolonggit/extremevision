@@ -2,6 +2,20 @@ ul,li,a,p,h1,h2,h3,h4,h5,h6,section,div,dl,dt,dd{
 	margin: 0;
 	padding: 0;
 }
+body::-webkit-scrollbar {/*滚动条整体样式*/
+	width: 10px;     /*高宽分别对应横竖滚动条的尺寸*/
+	height: 1px;
+}
+body::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+	border-radius: 10px;
+	 -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+	background: #535353;
+}
+body::-webkit-scrollbar-track {/*滚动条里面轨道*/
+	-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+	border-radius: 10px;
+	background: #EDEDED;
+}
 ul{
 	list-style:none;
 }
@@ -13,6 +27,7 @@ a{
 	position:fixed;
 	top: 0;
 	width: 100%;
+	z-index: 1000;
 }
 .header{
 	width: 1000px;
@@ -49,3 +64,5 @@ a{
 .heightfp{
 	height: 100%;
 }
+.clearfloat::after {content: "";display: block;clear: both;height: 0;overflow: hidden;visibility: hidden;}
+.clearfloat {zoom: 1;}

@@ -1,6 +1,6 @@
-.videTop {position: relative;z-index: -4;}
+.videTop {position: relative;}
 .videobg{width: 100%; object-fit: fill;height: 100%;}
-.videobottom{display: flex;position: absolute;top: 40%;left: 24%;color: #fff;font-size: 35px;}
+.videobottom{display: flex;position: absolute;top: 12%;left: 24%;color: #fff;font-size: 35px;}
 .videobottom .en_title{font-size: 29px}
 .videobottom .divfirst {margin-right: 60px;}
 .videobottom h1{line-height: 55px;font-weight: 400;}
@@ -16,7 +16,7 @@
 .suanfa .color_title{text-align: center;margin: 50px 0 70px;font-size: 30px;font-weight: 400;color: #333;}
 .suanfalist {display: flex;flex-wrap: wrap;
 justify-content: space-between;}
-.suanfalist dl {width: 30%;height: 192px;color:#333;padding-left: 60px;margin-bottom:20px;box-sizing: border-box;font-size: 20px;}
+.suanfalist dl {width: 30%;height: 192px;z-index:100;color:#333;padding-left: 60px;margin-bottom:20px;box-sizing: border-box;font-size: 20px;}
 .suanfalist dl:nth-of-type(1){background: url(https://static2.extremevision.com.cn/images/lion/index/algo_shop_bg_01.png?201903211615) no-repeat;}
 .suanfalist dl:nth-of-type(1):hover{   color: #fff;background-image: url(https://static2.extremevision.com.cn/images/lion/index/algo_shop_bg_01_hover.png?201903211615);
 }
@@ -36,3 +36,19 @@ justify-content: space-between;}
 .suanfalist dl:nth-of-type(6):hover{   color: #fff;background-image: url(https://static2.extremevision.com.cn/images/lion/index/algo_shop_bg_01_hover.png?201903211615);
 }
 .suanfalist dl .icon{width: 65px;font-size: 55px;height: 60px;margin:30px 0 20px;}
+.content_footer{width: 70%;margin: 60px auto 50px;}
+.content_footer .clearfix{display: flex;color: #333;justify-content: space-between;}
+.content_footer .clearfix li p:nth-of-type(1){font-size: 40px;}
+.content_footer .clearfix li p:nth-of-type(2){font-size: 16px;}
+.section-feature h1 {text-align: center;font-size: 40px;font-weight: 400;color: #333;}
+.section-feature .subtitle {text-align: center;margin:60px 0 80px;}
+.section-feature{position: relative;background: #eee;padding-top: 60px;}
+.section-feature > img {width: 100%;margin: 0 auto;}
+.icon_text_wrapper {position: absolute;top: 300px;}
+.section-feature .iconOne{left: 20%;top:360px;}
+.section-feature .iconTwo{left: 38%;top: 440px;}
+.section-feature .iconThree{left: 54%;top: 370px;}
+.section-feature .iconFour{left: 75%;top: 410px;}
+.icon_text_wrapper img {width: 80px;}
+.section-feature .iconThree p{position: absolute;top:-30px;width: 240px;}
+.section-feature .iconFour p{position: absolute;left: 20px;width: 240px;}
