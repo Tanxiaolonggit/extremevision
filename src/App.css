@@ -67,3 +67,5 @@ a{
 }
 .clearfloat::after {content: "";display: block;clear: both;height: 0;overflow: hidden;visibility: hidden;}
 .clearfloat {zoom: 1;}
+.menubg{background: #222;}
+.menubg a{color: #bbb;}

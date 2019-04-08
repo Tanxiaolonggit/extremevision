@@ -32,9 +32,6 @@
     "redux": "^4.0.1",
     "sass-loader": "^7.1.0"
   },
-<<<<<<< HEAD
-  "proxy": "http://cre.mix.sina.com.cn"
-=======
   "proxy": "http://cre.mix.sina.com.cn",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
@@ -48,5 +45,5 @@
     "url": "https://github.com/Tanxiaolonggit/extremevision/issues"
   },
   "homepage": "https://github.com/Tanxiaolonggit/extremevision#readme"
->>>>>>> 6194545a626fe07b9b3de28eabd3161789f70f9e
+
 }
