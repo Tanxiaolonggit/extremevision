@@ -6,16 +6,6 @@ export default class Home extends Component{
         console.log(document.documentElement.clientHeight || document.body.clientHeight)
         let videTop=document.getElementsByTagName("video")[0];
         videTop.style.height=(document.documentElement.clientHeight || document.body.clientHeight)+10+"px";
-        // let imgs=document.getElementsByClassName("targetTog");
-        
-        // for(var i=0;i<imgs.length;i++){
-        //     (function(j){
-        //         var arr=[""]
-        //         imgs[j].onmouseover=function(){
-        //             this.style.background="blue";
-        //         }
-        //     })(i)
-        // }
     }
 	render(){
 		return (
