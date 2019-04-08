@@ -1,0 +1,6 @@
+.profoot dl{position: relative;color: #fff;}
+.profoot dl h2{position: absolute;font-size: 38px;top:34%;color: #fff;left: 22%;}
+.profoot dl ul{position: absolute;top:44%;left: 22%;}
+.profoot dl ul li {font-size: 14px;line-height: 28px;}
+.profoot dl h2::before{content: "";width:36px;display: block;height: 4px;background: blue;}
+.profoot dl img {display: block;}

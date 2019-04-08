@@ -1,10 +1,11 @@
 import React,{Component} from 'react';
 import ProHead from "./component/proHead"
+import Profoot from "./component/profoot"
 
 //引入react-redux的connect组件
 import {connect} from 'react-redux'
 import {bindActionCreators} from "redux";
-class Product extends Component{
+export default class Product extends Component{
 	constructor(props){
 		super(props);
 		this.state={
@@ -39,21 +40,12 @@ class Product extends Component{
 		return (
 			<section>
 				<ProHead type={this.state.type}></ProHead>
+				<Profoot type={this.state.type}></Profoot>
 			</section>
 		)
 	}
 }
 
-//映射属性
-var mapStateToProps = (state)=>{
-	return{
-		plist:{...state.product.plist}
-	}
-}
-//映射方法
-var mapDispatchToProps=(dispatch)=>{//映射方法 映射需要的
-	return {
-	}
-}
 
-export default connect(mapStateToProps,mapDispatchToProps)(Product)
+
+
