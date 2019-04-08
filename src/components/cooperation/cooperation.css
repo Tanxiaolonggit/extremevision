@@ -1,0 +1,233 @@
+.coop1{
+	text-align: center;
+	overflow: hidden;
+	height: 600px;
+	background: 	url("https://static2.extremevision.com.cn/images/lion/cooperation_bg.png?201903211615");
+	background-size: 100% 100%;
+	color: white;
+}
+
+.coop1 p:nth-of-type(1){
+	margin-top:160px;
+	font-size: 40px;
+	margin-bottom: 50px;
+}
+
+.coop1 p:nth-of-type(2){
+	color: rgba(255,255,255,.8);
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.coop1 p:nth-of-type(3){
+	color: rgba(255,255,255,.8);	
+	font-size: 14px;
+	margin-bottom: 50px;
+}
+.coop1 p:nth-of-type(4){
+	color: rgba(255,255,255,.8);		
+	margin-bottom: 5px;	
+	font-size: 14px;
+}
+.coop1 p:nth-of-type(5){
+	color: rgba(255,255,255,.8);	
+	font-size: 14px;
+	margin-bottom: 50px;
+	
+}
+.coop1 p:nth-of-type(6){
+	background: #2d7fff;
+	margin: 0 auto;
+	width: 100px;
+	height: 30px;
+	color: white;	
+	font-size: 20px;	
+}
+.coop2{
+	width: 1200px;
+	margin: 0 auto;
+}
+.coop2 h3{
+	text-align: center;
+	font-size: 35px;
+	font-weight: 500;
+	margin-top: 50px;
+	margin-bottom: 150px;
+}
+
+
+.coop2 ul li{
+	float: left;
+	width: 50%;
+	margin-bottom: 100px;
+	padding-left: 150px;
+	box-sizing: border-box;
+}
+.coop2 ul li div{
+	float: left;
+	margin-right: 25px;
+}
+.coop2 img{
+	vertical-align: top;
+}
+.coop2 ul li p:nth-of-type(2){
+	letter-spacing: 2px;
+	color: #555;
+	font-size: 12px;
+	width: 80%;
+}
+.coop2 ul li p:nth-of-type(1){
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+
+.coop3{
+	clear: both;
+	background: url(../../assets/coopimg/5.png);
+	background-size: 100% 100%;
+}
+.coop31{
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	width: 1200px;
+	margin: 0 auto;
+}
+.coop31 div{
+	text-align: center;
+	margin-top: 250px;
+	margin-bottom: 100px;
+}
+.coop31 img{
+	width: 80px;
+	height: 80px;
+}
+.coop31 p{
+	color: white;
+}
+
+.coop31 div:nth-of-type(1) img{
+		margin-bottom: 40px;
+}
+.coop31 div:nth-of-type(1) p{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.coop31 div:nth-of-type(1) span{
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+.coop31 div:nth-of-type(3) img{
+		margin-bottom: 40px;
+}
+.coop31 div:nth-of-type(3) p{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.coop31 div:nth-of-type(3) span{
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+.coop31 div:nth-of-type(2){
+	margin: auto 0;
+	font-size: 30px;
+}
+
+.coop4{
+	width: 1200px;
+	margin:  0 auto;
+	
+}
+.coop4 h3{
+	font-weight: 300;
+	font-size: 30px;
+	margin-top: 50px;
+	text-align: center;
+	margin-bottom: 250px;
+}
+
+.coop4 ul{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 150px;
+}
+
+.coop4 ul li{
+	font-size: 12px;	
+}
+.coop5{
+	overflow: hidden;
+	background: url(../../assets/coopimg/png.png);
+}
+.coop5 h3{
+	font-weight: 300;
+	
+	text-align: center;
+	color: white;
+	font-size: 35px;
+	margin-top: 80px;
+	margin-bottom: 100px;
+}
+.coop5 div{
+	width: 1200px;
+	margin: 0 auto;
+	margin-bottom: 150px;
+}
+
+.coop5 ul{
+	margin: 0 auto;
+	width: 85%;
+	display: flex;
+	justify-content: space-around;
+}
+.coop5 ul li{
+	box-sizing: border-box;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	border-radius: 8px;
+	background: white;
+	width: 28%;
+}
+.coop5 ul li img{
+	margin-top: 50px;
+	margin-bottom: 20px;
+	width: 80px;
+	height: 80px;
+}
+.coop5 ul li p:nth-of-type(1){
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.coop5 ul li p:nth-of-type(2){
+	padding-top: 20px;
+	border-top: 1px solid #E1E1E1;
+	font-size: 12px;
+	color: #666666;
+	margin-bottom: 50px;
+}
+
+.coop6{
+	background: url(../../assets/coopimg/14.png);
+	background-size: 100% 100%;
+}
+.coop6 div{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.coop6 div h3{
+	text-align: center;
+	font-size: 30px;
+	color: #2e3233;
+	margin-top: 80px;
+	margin-bottom: 150px;
+}
+
+.coop6 img{
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+}

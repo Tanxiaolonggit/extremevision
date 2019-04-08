@@ -9,6 +9,7 @@ import MyRoute from './components/MyRoute'
 import Home from './components/home/home'
 //引入store组件
 import Shopping  from './components/shopping/shopping'
+import Coop from './components/cooperation/cooperation'
 class App extends Component {
 	constructor(props){
 		super(props)
@@ -23,6 +24,11 @@ class App extends Component {
 			{
 				path:'/Shopping',
 				component:Shopping
+			},
+			{
+				path:'/coop',
+				component:Coop
+				
 			}
 		]
 	}
