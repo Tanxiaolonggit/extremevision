@@ -3,8 +3,10 @@ import {combineReducers} from "redux";
 import shopReducer from './shopping/reducer'
 import newsList from "./news/reducer"
 import Case from "./Case/reducer"
+import product from "./product/redurce"
 export default combineReducers({
 	shopdata:shopReducer,
 	newsList,
-	Case
+	Case,
+	product
 });

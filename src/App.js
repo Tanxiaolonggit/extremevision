@@ -34,7 +34,7 @@ class App extends Component {
 				component:Case
 			},
 			{
-				path:'/product/:type',
+				path:'/hyfa/:type',
 				component:Product
 			}
 		]
