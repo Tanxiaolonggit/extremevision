@@ -12,6 +12,8 @@ import Home from './components/home/home'
 //引入store组件
 import Shopping  from './components/shopping/shopping'
 
+import Honor from "./components/honor/honor"
+
 import Coop from './components/cooperation/cooperation'
 
 //引入case组件
@@ -41,6 +43,9 @@ class App extends Component {
 			{
 				path:'/hyfa/:type',
 				component:Product
+			},{
+				path:'/honor',
+				component:Honor
 			}
 		]
 	}

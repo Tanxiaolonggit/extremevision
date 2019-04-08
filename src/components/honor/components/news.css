@@ -1,0 +1,22 @@
+.honorNews{
+    width: 100%;
+    background: url(https://static2.extremevision.com.cn/images/lion/honor/honor_bg1_07_0322.png?201903211615)no-repeat center;
+    padding: 180px 0;
+}
+.honorNews div{
+    width: 100%;
+}
+.honorNews div h1{
+    width: 845px;
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+}
+.honorNews div p{
+    width: 845px;
+    color: #fff;
+    margin:60px auto;
+    text-align: justify;
+}

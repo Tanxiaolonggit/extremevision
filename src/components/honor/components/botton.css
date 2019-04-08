@@ -1,0 +1,19 @@
+.bottonNews{
+    width: 100%;
+    padding-top:70px;
+    padding-bottom: 125px;
+    background: url(https://static2.extremevision.com.cn/images/lion/honor/honor_bg3_07.png?201903211615) center;
+}
+.bottonNews div{
+    margin: auto;
+    width: 997.5px;
+    text-align: center;
+}
+.bottonNews div h1{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 90px;
+}
+.bottonNews div img{
+    width: 100%;
+}
