@@ -39,18 +39,10 @@
     "type": "git",
     "url": "git+https://github.com/Tanxiaolonggit/extremevision.git"
   },
-<<<<<<< HEAD
-  "keywords": [],
-=======
->>>>>>> 4414cfc4d6a47a602a83c7d0dfeb89973d35a96e
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Tanxiaolonggit/extremevision/issues"
   },
   "homepage": "https://github.com/Tanxiaolonggit/extremevision#readme"
-<<<<<<< HEAD
-=======
-
->>>>>>> 4414cfc4d6a47a602a83c7d0dfeb89973d35a96e
 }

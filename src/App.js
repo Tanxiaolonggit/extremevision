@@ -11,13 +11,12 @@ import MyRoute from './components/MyRoute'
 import Home from './components/home/home'
 //引入store组件
 import Shopping  from './components/shopping/shopping'
-<<<<<<< HEAD
+
 import Coop from './components/cooperation/cooperation'
-=======
+
 //引入case组件
 import Case  from './components/case/case'
 import Product from "./components/products/products"
->>>>>>> 4414cfc4d6a47a602a83c7d0dfeb89973d35a96e
 class App extends Component {
 	constructor(props){
 		super(props)
@@ -34,18 +33,14 @@ class App extends Component {
 				component:Shopping
 			},
 			{
-<<<<<<< HEAD
 				path:'/coop',
-				component:Coop
-				
-=======
+				component:Coop},{
 				path:'/Case',
 				component:Case
 			},
 			{
 				path:'/hyfa/:type',
 				component:Product
->>>>>>> 4414cfc4d6a47a602a83c7d0dfeb89973d35a96e
 			}
 		]
 	}
