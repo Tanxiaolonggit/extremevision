@@ -1,0 +1,49 @@
+.box{
+	padding: 200px 98px;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+}
+.left{
+	width:270px;
+	height: 200px;
+	margin-top: 80px;	
+}
+.left1{
+	width:270px;
+	height: 200px;
+}
+.left p{
+	line-height: 26px;
+	text-align: justify;
+	
+}
+.right{
+	text-align: center;
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	background: rgba(255,255,255,.2);
+	position: relative;
+}
+.right1{
+	text-align: center;
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	background: rgba(255,255,255,.2);
+	position: relative;
+	order: -1;
+}
+article{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+article p{
+	margin-top: 31px;
+}
+img{
+	width: 100%;
+}
