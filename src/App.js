@@ -1,14 +1,19 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Menu, Dropdown, Icon } from 'antd';
 //引入路由组件
 import {Route,NavLink,Link,Redirect,Switch,withRouter} from 'react-router-dom'
 //引入循环渲染路由模板
+import store from "./store/store";
 import MyRoute from './components/MyRoute'
 //引入home组件
 import Home from './components/home/home'
 //引入store组件
 import Shopping  from './components/shopping/shopping'
+//引入case组件
+import Case  from './components/case/case'
+import Product from "./components/products/products"
 class App extends Component {
 	constructor(props){
 		super(props)
@@ -23,24 +28,59 @@ class App extends Component {
 			{
 				path:'/Shopping',
 				component:Shopping
+			},
+			{
+				path:'/Case',
+				component:Case
+			},
+			{
+				path:'/product/:type',
+				component:Product
 			}
 		]
 	}
+	componentDidMount() {
+        // 挂载滚动监听
+        window.addEventListener('scroll', this.bindScroll)
+    }
+	bindScroll=(event)=>{
+		 // 滚动的高度
+        const scrollTop = (event.srcElement ? event.srcElement.documentElement.scrollTop : false) || window.pageYOffset || (event.srcElement ? event.srcElement.body.scrollTop : 0);
+        if(scrollTop>100){     	
+        		this.navs.style.top="-100%"
+        }else{
+        	this.navs.style.top="0"
+        }
+	}
   render() {
-  	console.log(this.props)
-    return (
+	const menu = (
+		<Menu className="menubg">
+		  <Menu.Item>
+		  <NavLink to="/hyfa/anquan">智慧安防解决方案</NavLink>
+		  </Menu.Item>
+		  <Menu.Item>
+			<NavLink to="/hyfa/city">智慧城市解决方案</NavLink>
+		  </Menu.Item>
+		  <Menu.Item>
+		  <NavLink to="/hyfa/shop">智慧零售解决方案</NavLink>
+		  </Menu.Item>
+		</Menu>
+	 );
+   return (
       <div className="App">
       		<div >
-      			<div className="headerOut">
+      			<div className="headerOut" ref={(node)=>this.navs=node}>
       				<div className="header">
 		      			<Link to="/home"><img src={require('./assets/img/logo.png')}/></Link>
 		      			<ul className="nav">
-		      				<li><NavLink to="/shopping">算法商城</NavLink></li>
-		      				<li><NavLink to="/case">行业方案</NavLink></li>
-		      				<li><NavLink to="/show">典型案例</NavLink></li>
+							  <li><NavLink to="/shopping">算法商城</NavLink></li>
+							  <Dropdown overlay={menu}>
+							  <li className="ant-dropdown-link" style={{color:"#bbb"}}>行业方案<Icon type="down" /></li>
+							  </Dropdown>
+		      				<li><NavLink to="/Case">典型案例</NavLink></li>
 		      				<li><NavLink to="/honor">资质荣誉</NavLink></li>
-		      				<li><NavLink to="/coop">商务合作</NavLink></li>
-		      			</ul>
+							  <li><NavLink to="/coop">商务合作</NavLink></li>
+						  </ul>
 	      			</div>
       			</div>
       			<Switch>
@@ -53,7 +93,7 @@ class App extends Component {
       			</Switch>
       			
       		</div>  
-      		<footer className="indexFooter">
+      		<footer className="indexFooter" >
       			<section>
 		      		<div className="out">
 		      			<ul>
@@ -87,7 +127,7 @@ class App extends Component {
 		      		</div>
 		      		<p className="end">©2013-2019 深圳极视角科技有限公司 版权所有<a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备15075380号</a></p>
 	      		</section>
-	      	</footer>
+	      	</footer>      	
       </div>
     );
   }

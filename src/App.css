@@ -1,3 +1,4 @@
+@import '~antd/dist/antd.css';
 ul,li,a,p,h1,h2,h3,h4,h5,h6,section,div,dl,dt,dd{
 	margin: 0;
 	padding: 0;
@@ -28,6 +29,7 @@ a{
 	top: 0;
 	width: 100%;
 	z-index: 1000;
+	transition: 1s;
 }
 .header{
 	width: 1000px;
@@ -130,3 +132,5 @@ a{
 	color: #337ab7;
 	margin: 0 5px;
 }
+.menubg{background: #222;}
+.menubg a{color: #bbb;}

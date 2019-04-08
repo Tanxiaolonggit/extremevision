@@ -3,7 +3,8 @@
 .videobottom{display: flex;position: absolute;top: 12%;left: 24%;color: #fff;font-size: 35px;}
 .videobottom .en_title{font-size: 29px}
 .videobottom .divfirst {margin-right: 60px;}
-.videobottom h1{line-height: 55px;font-weight: 400;}
+.videobottom  h1{line-height: 55px;font-weight: 400;color: #fff;}
+.videobottom  h2,.videobottom  h3{color: #fff;}
 .videobottom .divfirst::after{    content: '';
     display: inline-block;
     position: absolute;
