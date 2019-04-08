@@ -1,3 +1,23 @@
-export default{
-	
+export default{	
+	//算法商城分类请求
+	//请求全部
+	All(){
+		return{
+			type:'ALL'
+		}
+	},
+	//筛选请求
+	Check(item){
+		return{
+			type:'CHECK',	
+			item
+		}
+	},
+	//点击阅读量增加
+	readPlus(index){
+		return{
+			type:'PLUS',	
+			index
+		}
+	}
 }
