@@ -28,6 +28,6 @@
     border-radius: 10px;
     background: #EDEDED;
 }
-.homefooter {text-align: center;padding:50px 0 60px;background: url(https://static2.extremevision.com.cn/images/lion/index/bg6_0309.png?201903211615) no-repeat;}
+.homefooter {text-align: center;padding:50px 0 0;background: url(https://static2.extremevision.com.cn/images/lion/index/bg6_0309.png?201903211615) no-repeat #242424;;}
 .homefooter h2{font-size: 50px;color: #fff;font-weight: 400;margin-bottom:80px;}
-.homefooter img {width: 80%;}
+.homefooter img {width: 80%;vertical-align:top;}

@@ -9,9 +9,9 @@ export default class Home extends Component{
 				<News />
 				<footer className="homefooter">
                         <h2>服务客户</h2>
-                        <div class="img page_w">
-                        <img src="https://static2.extremevision.com.cn/images/lion/index/logo_0321.png" />
-                </div>
+                        <div className="img page_w">
+                       		 <img src="https://static2.extremevision.com.cn/images/lion/index/logo_0321.png" />
+                		</div>
                 </footer>
 			</section>
 		)

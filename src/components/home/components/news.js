@@ -12,7 +12,6 @@ class News extends Component{
     }
 	render(){
         var {list}=this.props;
-        console.log(list)
 		return (
 			<section className="homeNews">
                 <h2>新闻资讯</h2>

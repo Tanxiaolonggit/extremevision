@@ -1,0 +1,27 @@
+export default{
+    hlist:{
+        anquan:{title:"智慧安防系统",conlist:["无死角智能监控","定制化场景识别","有异常极速预警","优化调度易追踪"]},
+        city:{title:"智慧城市系统",conlist:["无死角智能监控","定制化场景识别","有异常极速预警","优化调度易追踪"]},
+        shop:{title:"智慧零售系统",conlist:["无死角智能监控","定制化场景识别","有异常极速预警","优化调度易追踪"]}
+    },
+    plist:{
+        anquan:[
+            {title:"监控",list:["24h无死角全厂区监控","高危区域异常环境识别","随时随地调查取阅"],img:"https://static2.extremevision.com.cn/images/lion/products/security/bg1_0308.png?201903211615"},
+            {title:"识别",list:["异常动作及来访识别",">安全帽佩戴/翻越检测/火焰识别","高精度高准确率"],img:"https://static2.extremevision.com.cn/images/lion/products/security/bg2_0308.png?201903211615"},
+            {title:"预警",list:["夜间闯入警报","火焰烟雾预警","可疑人员预警"],img:"https://static2.extremevision.com.cn/images/lion/products/security/bg3_0308.png?201903211615"},
+            {title:"调度",list:["安保人员调配","安防措施完善","基础建设辅助参考"],img:"https://static2.extremevision.com.cn/images/lion/products/security/bg4_0308.png?201903211615"}
+        ],
+        city:[
+            {title:"监控",list:["24h无死角全厂区监控","高危区域异常环境识别","随时随地调查取阅"],img:"https://static2.extremevision.com.cn/images/lion/products/security/bg1_0308.png?201903211615"},
+            {title:"识别",list:["异常动作及来访识别",">安全帽佩戴/翻越检测/火焰识别","高精度高准确率"],img:"https://static2.extremevision.com.cn/images/lion/products/security/bg2_0308.png?201903211615"},
+            {title:"预警",list:["夜间闯入警报","火焰烟雾预警","可疑人员预警"],img:"https://static2.extremevision.com.cn/images/lion/products/security/bg3_0308.png?201903211615"},
+            {title:"调度",list:["安保人员调配","安防措施完善","基础建设辅助参考"],img:"https://static2.extremevision.com.cn/images/lion/products/security/bg4_0308.png?201903211615"}
+        ],
+        shop:[
+            {title:"监控",list:["24h无死角全厂区监控","高危区域异常环境识别","随时随地调查取阅"],img:"https://static2.extremevision.com.cn/images/lion/products/security/bg1_0308.png?201903211615"},
+            {title:"识别",list:["异常动作及来访识别",">安全帽佩戴/翻越检测/火焰识别","高精度高准确率"],img:"https://static2.extremevision.com.cn/images/lion/products/security/bg2_0308.png?201903211615"},
+            {title:"预警",list:["夜间闯入警报","火焰烟雾预警","可疑人员预警"],img:"https://static2.extremevision.com.cn/images/lion/products/security/bg3_0308.png?201903211615"},
+            {title:"调度",list:["安保人员调配","安防措施完善","基础建设辅助参考"],img:"https://static2.extremevision.com.cn/images/lion/products/security/bg4_0308.png?201903211615"}
+        ]
+    }
+}
