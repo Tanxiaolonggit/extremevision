@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import "./static/css/font-awesome.css"
 import { Menu, Dropdown, Icon } from 'antd';
 //引入路由组件
 import {Route,NavLink,Link,Redirect,Switch,withRouter} from 'react-router-dom'
